@@ -1296,7 +1296,7 @@ def main():
     # Cache ranked results too
     st.session_state["ranked_results"] = (opportunities, noise_items)
 
-    # ── Render results ────────────────────────────────────────────────────────
+    # ── Render results ───────────────────────────────────────────────────────
     st.markdown("---")
     st.markdown("## 🏆 Priority Inbox")
 
